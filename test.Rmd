@@ -1,0 +1,26 @@
+---
+title: "Leaflet test"
+author: "Anita"
+date: "10-2-2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## First create the dataset points.
+```{r, echo=FALSE}
+df <- data.frame(lat = runif(10, min = 52, max = 53), lon = runif(10, min = 5.25, max = 6.25))
+head(df)
+```
+
+***
+
+```{r}
+library(leaflet)
+map1 <- df %>% leaflet() %>% addTiles() %>% addMarkers()
+map1
+```
+
