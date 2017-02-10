@@ -3,4 +3,4 @@ title: "About"
 
 ---
 
-## This side shows the projects that I built
+## This site shows the projects that I built
