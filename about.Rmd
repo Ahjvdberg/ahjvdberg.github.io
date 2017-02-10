@@ -1,0 +1,6 @@
+---
+title: "About"
+
+---
+
+## This side shows the projects that I built
