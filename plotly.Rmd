@@ -1,0 +1,18 @@
+---
+title: "Plotly"
+
+---
+
+## The next slide portrays a plotly graph
+
+
+```{r, echo=FALSE}
+Sys.time()
+```
+
+***
+
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+library(plotly)
+plot_ly(iris, x= ~Sepal.Length, y = ~Sepal.Width, color = ~Species)
+```
